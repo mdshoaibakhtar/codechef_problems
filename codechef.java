@@ -73,7 +73,7 @@ public class codechef
             }
         }
     }
-}*/
+}
 
 //July Cook Off 2021  Div-3(Shoe Fit)
 package mdshoaib.chef;
@@ -96,6 +96,47 @@ public class codechef
             }
             else
                 System.out.println("0");
+        }
+    }
+}*/
+
+package mdshoaib.chef;
+
+import java.util.Scanner;
+
+public class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number Of test cases");
+        int T = sc.nextInt();
+        for (int i=0;i<T;i++)
+        {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            int C = sc.nextInt();
+
+            int AB = A+B;
+            int BC = B+C;
+            int AC = A+C;
+
+            System.out.println(AB);
+            System.out.println(BC);
+            System.out.println(AC);
+
+            if (AB > BC && AB > AC)
+            {
+                System.out.println("Greater is "+AB);
+            }
+            if (BC > AB && BC > AC)
+            {
+                System.out.println("Greater is "+BC);
+            }
+            else
+            {
+                System.out.println("Greater is "+AC);
+            }
         }
     }
 }
