@@ -98,7 +98,7 @@ public class codechef
                 System.out.println("0");
         }
     }
-}*/
+}
 
 package mdshoaib.chef;
 
@@ -140,12 +140,26 @@ public class codechef
         }
     }
 }
+//Question Code:HS08TEST
+package mdshoaib.chef;
+import java.util.Scanner;
+public class codechef
+{
+   public static void main(String[] args)
+   {
+    Scanner sc = new Scanner(System.in);
+    int rest;
+    System.out.println("Enter The Amount You Want To Withdrawl");
+    int x = sc.nextInt();
+    System.out.println("Enter The Total Amount In Your Account");
+    int y = sc.nextInt();
+    if (x%5==0 && y > x)
+    {
+        System.out.println(y - (x+0.5));
 
-
-
-
-
-
+    }
+   }
+}*/
 
 
 
