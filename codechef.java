@@ -159,7 +159,31 @@ public class codechef
 
     }
    }
-}*/
+}
+
+//Date:22-08-2021
+package mdshoaib.chef;
+public class codechef
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello");
+    }
+}
+*/
+
+package mdshoaib.chef;
+public class codechef
+{
+    static void greet()
+    {
+         System.out.println("welcome To the ");
+    }
+    public static void main(String[] args)
+    {
+       greet();
+    }
+}
 
 
 
