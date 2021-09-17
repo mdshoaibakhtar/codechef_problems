@@ -173,17 +173,20 @@ public class codechef
 */
 
 package mdshoaib.chef;
+import java.util.Scanner;
 public class codechef
 {
-    static void greet()
-    {
-         System.out.println("welcome To the ");
-    }
     public static void main(String[] args)
     {
-       greet();
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        for (int i=0;i<T;i++)
+        {
+            
+        }
     }
 }
+
 
 
 
