@@ -161,35 +161,7 @@ public class codechef
    }
 }
 
-//Date:22-08-2021
-package mdshoaib.chef;
-public class codechef
-{
-    public static void main(String[] args)
-    {
-        System.out.println("Hello");
-    }
-}
 */
-
-package mdshoaib.chef;
-import java.util.Scanner;
-public class codechef
-{
-    public static void main(String[] args)
-    {
-        Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
-        for (int i=0;i<T;i++)
-        {
-            
-        }
-    }
-}
-
-
-
-
 
 
 
